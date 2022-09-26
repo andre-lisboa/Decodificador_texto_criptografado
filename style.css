@@ -1,0 +1,149 @@
+*{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body{
+    background: #F3F5FC;
+    
+}
+
+.logo{
+    display: inline;
+}
+
+.logo img{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.principal{
+    margin-left: 30px;
+}
+
+button{
+    width: 300px;
+    height: 50px;
+    font-size: 0.5em;
+    border-radius: 15px;
+}
+
+.input-texto{
+    width: 23.5em;
+    margin: 90px 5px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #0A3871;
+    font-size: 0.8em;
+    padding-left: 15px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 30px #000000;
+}
+
+.input-texto::placeholder{
+    color: #0A3871;
+    text-transform: lowercase;
+    font-size: 0.8em;
+}
+
+.orientacao{
+    font-size: 0.4em;
+    background: url(img/sinal.png) no-repeat left center;
+    padding-left: 20px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.codificar{
+    background-color: #0A3871;
+    color: #fff;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.codificar:hover{
+    background: lawngreen;
+    border-color:chartreuse;
+    transform: scale(1.2);
+}
+
+.codificar:active {
+    border-color: black;
+}
+
+.decodificar{
+    margin-left: 30px;
+    border-color: #0A3871;
+    color: #0A3871;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.decodificar:hover{
+    background: gold;
+    transform: scale(1.2);
+}
+
+.resultado{
+    width: 390px;
+    background: #fff;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 15px;
+    text-align:center;
+    
+}
+
+.retorno{
+    width: 8em;
+    position: relative;
+    margin: 20px 0;
+    background-image: url("img/High\ quality\ products\ 1\ 1.png");
+    background-repeat: no-repeat;
+    background-position: 5px;
+    background-size: 300px;
+    border-style: none;
+    padding: 1px;
+    transition: 1s all;
+    
+}
+
+.retorno:hover{
+    transform: scale(1.07);
+}
+
+.copia{
+    position: relative;
+    margin-top: 40px;
+}
+
+.copiar{
+    position: relative;
+    margin: 20px auto;
+    border-color: #0A3871;
+    color: #0A3871;
+    transition: 1s background;
+    cursor: pointer;
+}
+
+.copiar:hover {
+    background:blueviolet;
+    
+}
+
+
+
